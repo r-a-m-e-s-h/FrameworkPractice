@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FrameworkPractise]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="practise1(failed)">
+    <classes>
+      <class name="TestCases.TC_TourLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tourLoginTest"/>
+          <include name="SetUP"/>
+        </methods>
+      </class> <!-- TestCases.TC_TourLogin -->
+    </classes>
+  </test> <!-- practise1(failed) -->
+</suite> <!-- Failed suite [FrameworkPractise] -->
